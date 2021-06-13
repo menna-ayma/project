@@ -154,15 +154,16 @@
           <input class="main-input" type="email" name="mail" placeholder="Your Email" id="mail" required />
           <label for="pass" >password</label>
           <input  class="main-input" type="password" id="pass" name="password" placeholder="password" required>
-          
+          <label for="phone">Phone Number</label>
+           <input class="main-input" type="text" id="phone" name="phone" placeholder="enter your phone number" pattern="[0]{1}[1]{1}[0-9]{9}" required>
           <label for="gener"> gender</label>
           <select id="gener" name="gender"  class="main-input">
             <option value="male">male </option>
-            <option value="female"> female</option> 
-            <label for="phone">Phone Number</label>
-           <input class="main-input" type="text" id="phone" name="phone" placeholder="enter your phone number" pattern="[0]{1}[1]{1}[0-9]{9}" required>
+            <option value="female"> female</option>
+                                  
+            
             <label for="add">Address</label>
-            <textarea class="main-input" name="message" placeholder="Your Address " rows="20px" cols="10px" required></textarea>
+            <textarea id="add" class="main-input" name="message" placeholder="Your Address " rows="20px" cols="10px" required></textarea>
           <input type="submit" value="submit"  name="submit" style="background-color: aqua; padding: 25px;"  >
         </form>
         
