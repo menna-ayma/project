@@ -1,6 +1,6 @@
 :root {
     --main-color: rgba(88, 31, 31, 0.849);
-    --transparent-color: rgb(15 116 143 / 70%);
+  --transparent-color: rgba(76, 84, 87, 0.7);
     --section-padding: 100px;
   }
 * {
