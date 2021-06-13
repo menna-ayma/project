@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> CARS Website</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <header>
+    <div class="container">
+      
+      <nav>
+        
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          
+          <li><a href="#portfolio">Companies</a></li>
+          <li><a href="table.html">News</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cont">contact</a></li>
+          <li><a href="#contact">sign In</a></li>
+        </ul>
+        
+      </nav>
+    </div>
+  </header>
+  <div class="landing">
+    <div class="overlay"></div>
+    <div class="text">
+      <div class="content">
+        <h2>
+          Welcome,<br />
+          To The World Of Cars
+        </h2> 
+        
+       
+      </div>
+    </div>
+   
+   
+  </div>
+  <!-- Start company -->
+  <div class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="special-heading" >companies</h2>
+      
+      <div class="portfolio-content">
+        <div class="card">
+          <a target="_self" href="bmw.html">
+          <img src="logobm.jpeg" alt="" /> </a>
+          <div class="info">
+            <h3>BMW</h3>
+            <p>The Bavarian Motor Company, commonly referred to as BMW), is a German multinational company that produces cars and motorcycles. The company was founded in 1916  </p>
+          </div>
+        </div>
+        <div class="card">
+          <a target="_self" href="hunda.html">
+          <img src="download.jfif" alt="" /> </a>
+          <div class="info">
+            <h3>Hyundai</h3>
+            <p>Hyundai Motor Company is a branch of the Hyundai/Kia group of cars, which is the second largest company in South Korea after Samsung, </p>
+          </div>
+        </div>
+        <div class="card">
+          <a target="_self" href="pego.html">
+          <img src="logo4.jfif" alt="" /></a>
+          <div class="info">
+            <h3>Peugeot</h3>
+            <p>Peugeot is a major brand of a French car company, which is the second largest car manufacturer in Europe after Volkswagen. The company's origins go back to 1842.  </p>
+          </div>
+        </div>
+        <div class="card">
+          <a target="_self" href="mers.html">
+          <img src="logo4.jfif" alt="" /> </a>
+          <div class="info">
+            <h3>Mercedes</h3>
+            <p>Mercedes-Benz is a global German automotive brand and is a subsidiary of Daimler. Mercedes-Benz is known for its luxury vehicles, vans, trucks, buses and ambulances.  </p>
+          </div>
+        </div>
+        <div class="card">
+          <a target="_self" href="kia.html">
+          <img src="kialogo.png" alt="" /> </a>
+          <div class="info">
+            <h3>KIA</h3>
+            <p>Kia Motors is the second largest automaker in South Korea. . ,  Kia has achieved success in various European and global markets.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a target="_self" href="niss.html">
+          <img src="nis.jfif" alt="" /> </a>
+          <div class="info">
+            <h3>Nissan</h3>
+            <p>My creative ability is very difficult to measure because it can manifest in so many surprising </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!--End company -->
+   <!-- Start About -->
+   <div class="about" id="about">
+    <div class="container">
+      <div class="main-heading">
+        <h2>About Website</h2>
+        <p>
+          The site aims to serve the user to know all the information related to cars, especially companies (BMW - Hyundai -Mercedes - Peugeot) as it includes the features of each car and its pictures in order to help the user determine the car he needs. The site also updates all information when new cars come down and helps registering on the site to inform the user of everything new in the world, We hope that the site will please you and provide you with the required benefit
+        </p>
+      </div>
+      <img src="about.jpg" alt="" />
+    </div>
+  </div>
+  <!-- End About -->
+  <!-- Start contact -->
+    <div class="design" id="cont">
+      <div class="image">
+        <img src="123.jpg" alt="Mobile" />
+      </div>
+      <div class="text">
+        <h2>Our Contact</h2>
+        <ul>
+          <li>phone :(+02) 01149034095 </li>
+          <li>Address : Egypt,Cairo</li>
+          <li> mail:menna196066@feng,bu,edu,eg</li>
+          <li>Gmail:mennaayman697@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End contact -->
+  <!-- Start sign in -->
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Sign In</h2>
+        
+      </div>
+      <div class="content">
+        <form action="" id="form" onsubmit ="return validate()"">
+          <label for="fname">First Name</label>
+          <input class="main-input" type="text" name="name" placeholder="Your Name" id="fname" required/>
+          <label for="lname">Last Name</label>
+          <input class="main-input" type="text" name="lname" placeholder="Your Name" id="lname" required/>
+          <label for="mail">Your Email</label>
+          <input class="main-input" type="email" name="mail" placeholder="Your Email" id="mail" required />
+          <label for="pass" >password</label>
+          <input  class="main-input" type="password" id="pass" name="password" placeholder="password" required>
+          
+          <label for="gener"> gender</label>
+          <select id="gener" name="gender"  class="main-input">
+            <option value="male">male </option>
+            <option value="female"> female</option> 
+            <label for="phone">Phone Number</label>
+           <input class="main-input" type="text" id="phone" name="phone" placeholder="enter your phone number" pattern="[0]{1}[1]{1}[0-9]{9}" required>
+            <label for="add">Address</label>
+            <textarea class="main-input" name="message" placeholder="Your Address " rows="20px" cols="10px" required></textarea>
+          <input type="submit" value="submit"  name="submit" style="background-color: aqua; padding: 25px;"  >
+        </form>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+  <!-- End sign in -->
+  <!--java-->
+   <script>
+            function validate(){
+                     var contactForm = document.getElementById("form");
+                       var check = true;
+                       var password = document.getElementById("pass").value;
+                       var phone = document.getElementById("phone").value;
+                       var x=1;
+                         if(password == "")
+                        {   alert('Password is required !');
+                        x++;
+                        check= false;  }    
+                           if (!password.match(/^[A-Z](?=.*[^@#!])(?=.*[^a-zA-Z0-9])(?!.*\s).{7}$/))
+                           {   alert("Password is Not Valid, It must contain 8 characters: start with uppercase then there must be one lowercase, one number and one special character (@,#,!) at least");   
+                           check=false; 
+                          x++ }
+                              if (!phone.match(/^[0][1][0-9]{9}$/))
+                           {   alert("Phone is not valid");
+                              check=false; 
+                            x++ }
+                              if(x>1){
+                                return alert("try again");
+                              }
+                           if (x==1){
+                             return alert('thanks');
+                             
+                           }
+            }
+        </script>
+ <!--end java-->
+  </body>
+</html>
+
